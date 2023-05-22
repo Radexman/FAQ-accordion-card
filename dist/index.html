@@ -13,17 +13,22 @@
 	</head>
 	<body>
 		<!-- Outer Container -->
-		<div class="flex min-h-screen items-center justify-center bg-gradient-to-b from-softViolet to-softBlue">
+		<div class="flex min-h-screen items-center justify-center bg-gradient-to-b from-softViolet to-softBlue px-2 py-44">
 			<!-- Card Container -->
-			<div class="mx-6 flex max-w-5xl flex-col rounded-xl bg-white p-8 shadow-2xl md:flex-row">
+			<div class="mx-6 flex max-w-5xl flex-col rounded-xl bg-white p-8 pb-28 shadow-2xl md:flex-row">
 				<!-- Image Box -->
-				<div class="">
-					<img src="./assets/illustration-woman-online-desktop.svg" alt="" class="hidden md:block" />
-					<img src="./assets/illustration-woman-online-mobile.svg" alt="" class="block md:hidden" />
+				<div class="relative">
+					<img src="./assets/illustration-woman-online-desktop.svg" alt="" class="hidden -translate-x-20 overflow-hidden md:block" />
+					<img src="./assets/illustration-woman-online-mobile.svg" alt="" class="block -translate-y-48 md:hidden" />
+					<img
+						src="./assets/illustration-box-desktop.svg"
+						alt=""
+						class="absolute left-0 top-0 z-10 hidden translate-x-[-65%] translate-y-[65%] md:block"
+					/>
 				</div>
 				<!-- Content Box -->
-				<div class="space-y-4">
-					<h1 class="text-3xl font-bold">FAQ</h1>
+				<div class="space-y-2">
+					<h1 class="text-center text-3xl font-bold md:text-left">FAQ</h1>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sunt.</p>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sunt.</p>
 					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sunt.</p>
