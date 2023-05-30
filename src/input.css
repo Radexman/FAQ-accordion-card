@@ -4,7 +4,7 @@
 
 @layer components {
 	.accordion-text-active {
-		@apply h-0 overflow-hidden text-sm duration-200;
+		@apply h-0 overflow-hidden text-sm;
 	}
 }
 
